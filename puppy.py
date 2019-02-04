@@ -3,6 +3,7 @@
 import os
 import numpy as np
 import math
+import webbrowser as wb
 
 
 class puppy:
@@ -13,6 +14,9 @@ class puppy:
     def bork(self):
         print('bork')
         #TODO add web api to launch browser to borking videos
+
+    def _bork_vid(self):
+        wb.open_new("https://www.youtube.com")
 
     
 
