@@ -13,10 +13,11 @@ class puppy:
 
     def bork(self):
         print('bork')
+        self._bork_vid()
         #TODO add web api to launch browser to borking videos
 
     def _bork_vid(self):
-        wb.open_new("https://www.youtube.com")
+        wb.open_new("https://www.youtube.com/results?search_query=bork")
 
     
 
@@ -26,6 +27,7 @@ if __name__ == "__main__":
     # testing script
     new_pup = puppy()
     new_pup.bork()
+    
 
 
     
